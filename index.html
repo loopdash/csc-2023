@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/owl.carousel.css">
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/animate.css">
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
     <script src="./js/jquery-3.2.1.min.js"></script>
@@ -27,7 +28,8 @@
                 </div>
                 <div class="header_right">
                     <a class="visual_world" href="#">Navigating the Visual World</a>
-                    <a class="menu_icon" href="javascript:void(0)"><img src="./img/menu_icon.png"></a>
+                    <a class="menu_icon" href="javascript:void(0)" onclick="openNav()"><img
+                            src="./img/menu_icon.png"></a>
                     <ul></ul>
                 </div>
             </div>
@@ -63,7 +65,20 @@
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                 <div class="leadership_left">
-                    <img src="./img/ledership_video_img.jpg">
+                    <div class="vpop" data-type="youtube" data-id="6xcG6ttMDVY" data-autoplay='true'>
+                        <img src="./img/ledership_video_img.jpg">
+                    </div>
+                    <!-- copy this stuff and down -->
+                    <div id="video-popup-overlay"></div>
+
+                    <div id="video-popup-container">
+                        <div id="video-popup-close" class="fade">&#10006;</div>
+                        <div id="video-popup-iframe-container">
+                            <iframe id="video-popup-iframe" src="" width="100%" height="100%" frameborder="0"></iframe>
+                        </div>
+                    </div>
+
+
                     <div class="leadership_profile">
                         <div class="leadership_profile_box">
                             <img src="./img/profil1.jpg">
@@ -526,7 +541,7 @@
                                 programming on Tuesdays, educational presentations with guest speakers, and a full
                                 summer program of field trips.
                             </p>
-                            <div class="takes_preschools meet_kyles">
+                            <div class="takes_preschools meet_kyles meet_john">
                                 <div class="take_virals">
                                     <div class="row take_virals_para">
                                         <div class="col-md-10">
@@ -594,13 +609,14 @@
                 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 green_stics">
                     <div class="csc_left_side_dls">
                         <div class="csc_impact_title">
-
                             <div class="ctc_icon_title">
                                 <img src="./img/ctc_one.jpg" alt="">
                                 <h4>Early Intervention Team brought their services to the next level</h4>
                             </div>
-                            <p>
-                                With two Certified Orientation and Mobility Specialists (COMS) licenses added to the
+                            <p class="green_urls">
+                                With two <a href="#">Certified Orientation and Mobility Specialists (COMS) <img
+                                        src="./img/greenaerrow_url.png" alt=""></a> licenses
+                                added to the
                                 team, the Early Intervention team
                                 can offer deeper levels of services for the families of our youngest clients. Through
                                 these added licenses, more of our
@@ -620,10 +636,11 @@
                                     <div class="col-md-10">
                                         <div class="takes_dlss">
                                             <div class="takes_dlss_bdr">
-                                                <h4>Meet Allan, a current local sports broadcaster with a bright future
-                                                    ahead of him!</h4>
-                                                <p>Allan first got involved with CSC through a summer program focused on
-                                                    helping young adults explore various career paths.</p>
+                                                <h4>Meet James a 2-year-old boy, like many children, loves music and
+                                                    exploring!</h4>
+                                                <p>Barb, CSC’s Early Intervention Specialist, showed James’ parents,
+                                                    Kelsey and Michael, how to adapt and focus on what he
+                                                    can do,</p>
 
                                                 <a href="#">Read More</a>
 
@@ -635,7 +652,7 @@
                                     </div>
                                     <div class="col-md-2">
                                         <div class="preschols">
-                                            <img src="./img/preschool_1.jpg" alt="">
+                                            <img src="./img/preschool_3.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -652,8 +669,9 @@
                             <h2>BY THE NUMBERS:</h2>
                             <div class="nubs_secs">
                                 <div class="nubs_secs_title">
-                                    <h4>144</h4>
-                                    <p>clients received employment services</p>
+                                    <h4>242</h4>
+                                    <p>children, ages ranging from newborns to 3-year-olds, received services from CSC’s
+                                        Early Intervention Team</p>
                                 </div>
                                 <div class="nubs_navs">
                                     <img src="./img/nub_navs.png" alt="">
@@ -661,8 +679,9 @@
                             </div>
                             <div class="nubs_secs">
                                 <div class="nubs_secs_title">
-                                    <h4>93%</h4>
-                                    <p>of clients reported they were satisfied with the services they received.</p>
+                                    <h4>98.7%</h4>
+                                    <p>children, ages ranging from newborns to 3-year-olds, received services from CSC’s
+                                        Early Intervention Team</p>
                                 </div>
                                 <div class="nubs_navs">
                                     <img src="./img/nub_navs.png" alt="">
@@ -673,6 +692,540 @@
                 </div>
             </div>
 
+        </div>
+        <div class="botom_read_mores">
+            <a href="#">Read More</a>
+        </div>
+    </section>
+
+    <section class="sixth_sec">
+        <div class="looks_towards">
+            <div class="left_looks_ig">
+                <img src="./img/org_features.png" alt="">
+            </div>
+            <div class="looking_correct_title">
+                <h2>Looking Toward the Future</h2>
+                <div class="slider">
+                    <div id="slider_2" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="features_wraps">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="leftside_fea">
+                                            <p>
+                                                <b>White Cane Walk returns to Cleveland Sight Center on June 1,
+                                                    2024.</b>
+                                                White
+                                                Cane Walk is a celebration of the many ways
+                                                individuals navigate the visual world. The annual fundraising event
+                                                features a one-mile walk around Wade Lagoon in
+                                                University Circle and a celebration to follow with family-friendly fun,
+                                                music, food and games! With an expected
+                                                attendance of around 400 people, we are excited to come together as a
+                                                community and celebrate our collective belief in
+                                                creating an accessible world for everyone.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="rightside_fea">
+                                            <img src="./img/feature_1.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="features_wraps">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="leftside_fea">
+                                            <p>
+                                                <b>When one renovation project ends… another one begins!</b> This time,
+                                                the
+                                                section of CSC reserved for <a href="#">vision rehabilitation <img
+                                                        src="./img/org_aerrow_url.png" alt=""></a>
+                                                is getting a makeover. Our current space is designed to mimic a
+                                                traditional home - featuring a kitchen and laundry space
+                                                where our specialized staff train individuals on techniques and tools
+                                                that will support them in completing daily tasks.
+                                                The renovation will expand upon this, offering even more simulated
+                                                environments that one may come across daily,
+                                                including a grocery store, restaurant, bedroom and more. Once finished,
+                                                this state-of-the-art-facility will showcase our
+                                                commitment to being the leading provider of vision rehabilitation.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="rightside_fea">
+                                            <img src="./img/feature_2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="features_wraps">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="leftside_fea">
+                                            <p>
+                                                <b>As Cleveland Sight Center looks to the future, our strategic plan
+                                                    acts
+                                                    as a map, guiding us in the right direction.</b> The
+                                                five-year plan, which began in January 2024, prioritizes offering
+                                                innovative and high-quality programming, investing in
+                                                our staff and building a greater presence within the community. With a
+                                                focus on these three goals, CSC will serve more
+                                                people each year while expanding upon our excellent programming and a
+                                                positive internal culture.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="rightside_fea">
+                                            <img src="./img/feature_3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="looking_org_arrs">
+            <img src="./img/four_right_arr_org.png" alt="">
+        </div>
+    </section>
+
+    <section class="donor_volun">
+        <div class="donor_wrap">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="left_side_ig">
+                        <img src="./img/donor_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="right_side_dls">
+                        <h2>Donors and Volunteers</h2>
+                        <p>In 2023, 1,327 generous individuals, foundations, and organizations donated to CSC, and
+                            volunteers completed over 4,000
+                            hours of service in support of the blind and visually impaired community.
+                            <br><br>
+                            Thank you for your all you do to make sure everyone can live the life they want with the
+                            vision they have.
+                        </p>
+                        <div class="quotes_donors">
+                            <img src="./img/Quote_2.jpg" alt="">
+                            <b>“The biggest of the biggest thank you to all Cleveland Sight Center donors. You’re like
+                                fairy godparents. I don't know
+                                really how to put that in words, except that from the deepest part of my heart, thank
+                                you.”
+                                <p>– CSC client who received assistive technology through a donor funded program</p>
+                            </b>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="left_side_ig">
+                        <img src="./img/donor_2.jpg" alt="">
+                        <div class="donor_nav5">
+                            <img src="./img/Nav5.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="right_side_dls">
+                        <div class="pdf_img">
+                            <img src="./img/pfd.png" alt="">
+                            <a href="#">Download the complete Honor Roll of Donors and Volunteers</a>
+                        </div>
+                        <h3>A special thank you goes out to all of the members of our giving societies. You have made an
+                            incredible impact – thank
+                            you.
+                        </h3>
+                        <div class="foresty_ul">
+                            <ul>
+                                <li><span>The Foresight Society:</span> Established to honor all individuals who have
+                                    made a legacy
+                                    commitment to support Cleveland Sight
+                                    Center in their will, estate plans, life income plans or other means.
+                                </li>
+                                <li><span>The Champions’ Society:</span> Members have given gifts totaling $5,000 or
+                                    more.</li>
+                                <li><span>The Leaders’ Society:</span> Members have given $2,500 to $4,999.</li>
+                                <li><span>The Ambassadors’ Society:</span> Members have given $1,000 to $2,499.</li>
+                                <li><span>The Advocates’ Society:</span> Members have given $500 to $999.</li>
+                                <li><span>Friends:</span>The following donors provided a gift up to $500.</li>
+                                <li><span>The Partners’ Society:</span> Members have made a recurring gift to Cleveland
+                                    Sight Center.</li>
+                            </ul>
+                        </div>
+                        <div class="quotes_donors quote_twoas">
+                            <img src="./img/Quote_2.jpg" alt="">
+                            <b>"Donors are making a difference in our lives. By being able to receive CSC’s resources,
+                                guidance and help, my son has a
+                                better chance at life thanks to them.” <p>- Jessica Quinones, Emmett’s mom</p>
+                            </b>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="board_trusted">
+        <div class="board_trusted_title">
+            <h2>Board of Trustees</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="board_cols">
+                        <h4>Officers and Executive Committee</h4>
+                        <ul>
+                            <li><a href="#">Beth W. Smith, Chair</a></li>
+                            <li><a href="#">Joan U. Allgood, Secretary</a></li>
+                            <li><a href="#">Wally Anders, Treasurer</a></li>
+                            <li><a href="#">Karen P. Assink, Vice Chair</a></li>
+                            <li><a href="#">Erin C. Ploucha, Vice Chair</a></li>
+                            <li><a href="#">Zachary J. Stanley, Vice Chair</a></li>
+                            <li><a href="#">Bonita G. Teeuwen, Immediate Past Chair</a></li>
+                            <li><a href="#">Cheryl E. Fields, Chair, Client Services</a></li>
+                            <li><a href="#">Kevin R. McKinnis, Vice Chair</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="board_cols">
+                        <h4>Trustees</h4>
+                        <ul>
+                            <li><a href="#">Caitlin Beck </a></li>
+                            <li><a href="#">Sheryl King Benford</a></li>
+                            <li><a href="#">Mary H. Bookman </a></li>
+                            <li><a href="#">Brent M. Buckley </a></li>
+                            <li><a href="#">Erin N. Chelune</a></li>
+                            <li><a href="#">Robert L. Englander</a></li>
+                            <li><a href="#">Thomas P. Furnas</a></li>
+                            <li><a href="#">Michael H. Greenberg, OD</a></li>
+                            <li><a href="#">Robert L. Hartford, III </a></li>
+                            <li><a href="#">Lynn V. </a></li>
+                            <li><a href="#">Heiligenthal-Showalter</a></li>
+                            <li><a href="#">Suber S. Huang, MD </a></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="board_cols board_4_cols">
+                        <h4>Trustees</h4>
+                        <ul>
+                            <li><a href="#">Lynn V.</a></li>
+                            <li><a href="#">Heiligenthal-Showalter </a></li>
+                            <li><a href="#">Suber S. Huang, MD </a></li>
+                            <li><a href="#">Peter A. Igel </a></li>
+                            <li><a href="#">Frederick Kuper Jones </a></li>
+                            <li><a href="#">Nathan Kelly</a></li>
+                            <li><a href="#">Howard A. Lichtig </a></li>
+                            <li><a href="#">Bruce Loessin</a></li>
+                            <li><a href="#">Beejadi N. Mukunda, MD</a></li>
+                            <li><a href="#">Edward Oberndorf</a></li>
+                            <li><a href="#">Thomas P. O’Malley</a></li>
+                            <li><a href="#">Sara W. Parish</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="board_cols board_4_cols">
+                        <h4>Trustees</h4>
+                        <ul>
+                            <li><a href="#">Ronald E. Posner, MD</a></li>
+                            <li><a href="#">Beverly J. Roach</a></li>
+                            <li><a href="#">James P. Sacher</a></li>
+                            <li><a href="#">Joseph Schafer</a></li>
+                            <li><a href="#">Andrew L. Sikorovsky</a></li>
+                            <li><a href="#">William L. Spring, Esq. </a></li>
+                            <li><a href="#">G. Maxwell Toole</a></li>
+                            <li><a href="#">Kathy Walters </a></li>
+                            <li><a href="#">Myron (Mike) Weissman</a></li>
+                            <li><a href="#">Stanley E. Wertheim </a></li>
+                            <li><a href="#">Steven Willensky </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="board_boost">
+            <img src="./img/boeard_four_aerrow.png" alt="">
+        </div>
+    </section>
+
+    <section class="leadership_staaf">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="leftside_staff">
+                    <h2>Executive Leadership Staff</h2>
+                    <ul>
+                        <li><span>Larry Benders,</span>President and Chief Executive Officer</li>
+                        <li><span>Kevin R. Krencisz,</span>Executive Vice President</li>
+                        <li><span>Susie Meles,</span>Vice President, Rehabilitation Services</li>
+                        <li><span>Jassen Tawil,</span>Vice President, Strategic Initiatives</li>
+                        <li><span>Judith Weyburne,</span>Vice President, Client Operations</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="rightside_staff">
+                    <img src="./img/staff.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="recip_bavs">
+            <img src="./img/Nav6.png" alt="">
+        </div>
+    </section>
+
+    <section class="financial_reports">
+        <div class="financial_reports_title">
+            <div class="leadership_staaf">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="leftside_staff">
+                            <h2>2023 Financial Report</h2>
+                            <div class="balance_shhets">
+                                <h4>Balance Sheet</h4>
+                                <div class="assets_list">
+                                    <h6>Assets</h6>
+                                    <ul>
+                                        <li>
+                                            <p>Cash, receivables, inventory and prepaids</p>
+                                            <span>$4,509,690</span>
+                                        </li>
+                                        <li>
+                                            <p>Endowment and beneficial trust investments</p>
+                                            <span>$105,407,257</span>
+                                        </li>
+                                        <li class="property">
+                                            <p>Property and equipment</p>
+                                            <span>$10,018,756</span>
+                                        </li>
+                                        <li class="property total_ass">
+                                            <p>TOTAL ASSETS</p>
+                                            <span>$119,935,703</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="assets_list">
+                                    <h6>Liabilities</h6>
+                                    <ul>
+                                        <li>
+                                            <p>Payables and accrued expenses</p>
+                                            <span>$724,558</span>
+                                        </li>
+                                        <li class="property ">
+                                            <p>Donor annuities</p>
+                                            <span>$163,746</span>
+                                        </li>
+
+                                        <li class="property total_ass">
+                                            <p>TOTAL LIABILITIES</p>
+                                            <span>$888,304</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="assets_list">
+                                    <h6>Net Assets</h6>
+                                    <ul>
+                                        <li>
+                                            <p>Without donor restrictions</p>
+                                            <span>$61,750,985</span>
+                                        </li>
+                                        <li class="property ">
+                                            <p>With donor restrictions</p>
+                                            <span>$57,296,414</span>
+                                        </li>
+                                        <li class="property total_ass">
+                                            <p>TOTAL NET ASSETS</p>
+                                            <span>$119,047,399</span>
+                                        </li>
+                                        <li class="property total_assetss">
+                                            <p>TOTAL LIABILITIES AND NET ASSETS</p>
+                                            <span>$119,935,703</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="leftside_staff rightside_opers">
+                            <h2>2023 Financial Report</h2>
+                            <div class="balance_shhets">
+                                <h4> Statement of Operations</h4>
+                                <div class="assets_list">
+                                    <h6>Revenue</h6>
+                                    <ul>
+                                        <li>
+                                            <p>Public support</p>
+                                            <div class="support_prices">
+                                                <span>$1,069,832</span>
+                                                <span>11%</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <p>Retail sales</p>
+                                            <div class="support_prices">
+                                                <span>$94,751</span>
+                                                <span>1%</span>
+                                            </div>
+                                        </li>
+                                        <li class=" ">
+                                            <p>Program and other service fees</p>
+                                            <div class="support_prices">
+                                                <span>$4,273,560</span>
+                                                <span>45%</span>
+                                            </div>
+                                        </li>
+                                        <li class="property">
+                                            <p>Endowment and trust revenue</p>
+                                            <div class="support_prices">
+                                                <span>$4,104,871</span>
+                                                <span>43%</span>
+                                            </div>
+                                        </li>
+                                        <li class="property last_pro">
+                                            <p>Endowment and trust revenue</p>
+                                            <div class="support_prices">
+                                                <span>$9,543,014</span>
+                                                <span>100%</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="assets_list">
+                                    <h6>Expenses</h6>
+                                    <ul>
+                                        <li>
+                                            <p>Program services</p>
+                                            <div class="support_prices">
+                                                <span>$7,908,522</span>
+                                                <span>83%</span>
+                                            </div>
+                                        </li>
+                                        <li class=" ">
+                                            <p>Management and general</p>
+                                            <div class="support_prices">
+                                                <span>$1,041,334</span>
+                                                <span>11%</span>
+                                            </div>
+                                        </li>
+                                        <li class="property  ">
+                                            <p>Fundraising</p>
+                                            <div class="support_prices">
+                                                <span>$538,338</span>
+                                                <span>6%</span>
+                                            </div>
+                                        </li>
+                                        <li class="property last_pro">
+                                            <p>Endowment and trust revenue</p>
+                                            <div class="support_prices">
+                                                <span>$9,488,194</span>
+                                                <span>100%</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="assets_list">
+                                    <ul>
+                                        <li class="property total_assetss surplus_prices">
+                                            <p>Surplus from Operations</p>
+                                            <div class="support_prices">
+                                                <span>$54,820</span>
+                                                <span>100%</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="revenue_secs">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="revenue_ig">
+                                <img src="./img/revenue_1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="rightside_revenues">
+                                <h4>Revenue</h4>
+                                <p>$9.543 Million in 2020</p>
+                                <div class="propertys_sec">
+                                    <div class="color_depnds">
+                                        <img src="./img/r_1.png" alt="">
+                                        <span>Public support</span>
+                                    </div>
+                                    <div class="color_depnds">
+                                        <img src="./img/r_2.png" alt="">
+                                        <span>Program and other service fees</span>
+                                    </div>
+                                    <div class="color_depnds">
+                                        <img src="./img/r_3.png" alt="">
+                                        <span>Retail sales</span>
+                                    </div>
+                                    <div class="color_depnds">
+                                        <img src="./img/r_4.png" alt="">
+                                        <span>Endowment and trust revenue</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top_navs_reven">
+                        <img src="./img/revenue_top.png" alt="">
+                    </div>
+                </div>
+                <div class="revenue_secs expences_sec">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="revenue_ig">
+                                <img src="./img/revenue_2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="rightside_revenues">
+                                <h4>Expenses</h4>
+                                <p>9.488 Million in 2020</p>
+                                <div class="propertys_sec">
+                                    <div class="color_depnds">
+                                        <img src="./img/r_1.png" alt="">
+                                        <span>Program services</span>
+                                    </div>
+                                    <div class="color_depnds">
+                                        <img src="./img/r_3.png" alt="">
+                                        <span>Fundraising</span>
+                                    </div>
+                                    <div class="color_depnds">
+                                        <img src="./img/r_2.png" alt="">
+                                        <span>Management and general</span>
+                                    </div>
+                                    <!-- <div class="color_depnds">
+                                        <img src="./img/r_4.png" alt="">
+                                        <span>Endowment and trust revenue</span>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </section>
 
@@ -716,6 +1269,29 @@
             </div>
         </div>
     </footer>
+
+
+    <!-- menubar -->
+
+    <div id="mySidenav" class="sidenav">
+        <div>
+            <div class="top_menus">
+                <h2>Menu</h2>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="#">Message from Leadership</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 
@@ -760,6 +1336,23 @@
             }
         }
     })
+
+    $('#slider_2').owlCarousel({
+        loop: true,
+        nav: true,
+        navText: ["<div class='nav-btn prev-slide'><i class='fa-solid fa-angle-left'></i></div>", "<div class='nav-btn next-slide'><i class='fa-solid fa-angle-right'></i></div>"],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
 </script>
 
 <!-- hide show -->
@@ -786,6 +1379,53 @@
         }
 
     });
+</script>
+
+<!-- youtube video -->
+
+<script>
+    $(".vpop").on('click', function (e) {
+        e.preventDefault();
+        $("#video-popup-overlay,#video-popup-iframe-container,#video-popup-container,#video-popup-close").show();
+
+        var srchref = '', autoplay = '', id = $(this).data('id');
+        if ($(this).data('type') == 'vimeo') var srchref = "//player.vimeo.com/video/";
+        else if ($(this).data('type') == 'youtube') var srchref = "https://www.youtube.com/embed/";
+
+        if ($(this).data('autoplay') == true) autoplay = '?autoplay=1';
+
+        $("#video-popup-iframe").attr('src', srchref + id + autoplay);
+
+        $("#video-popup-iframe").on('load', function () {
+            $("#video-popup-container").show();
+        });
+    });
+
+    $("#video-popup-close, #video-popup-overlay").on('click', function (e) {
+        $("#video-popup-iframe-container,#video-popup-container,#video-popup-close,#video-popup-overlay").hide();
+        $("#video-popup-iframe").attr('src', '');
+    });
+
+    /*
+    minified
+    
+    $(".vpop").on("click",function(o){o.preventDefault(),$("#video-popup-iframe-container,#video-popup-container,#video-popup-close").show();var p="",e="",i=$(this).data("id");if("vimeo"==$(this).data("type"))var p="//player.vimeo.com/video/";else if("youtube"==$(this).data("type"))var p="https://www.youtube.com/embed/";1==$(this).data("autoplay")&&(e="?autoplay=1"),$("#video-popup-iframe").attr("src",p+i+e),$("#video-popup-iframe").on("load",function(){$("#video-popup-overlay, #video-popup-container").show()})}),$("#video-popup-close, #video-popup-overlay").on("click",function(o){$("#video-popup-iframe-container,#video-popup-container,#video-popup-close").hide(),$("#video-popup-iframe").attr("src","")});
+    */
+</script>
+
+
+<!-- open nav -->
+
+<script type="text/javascript">
+
+    /* Simple appearence with animation AN-1*/
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "435px";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    /* Simple appearence with animation AN-1*/
 </script>
 
 

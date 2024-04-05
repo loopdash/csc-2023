@@ -862,3 +862,667 @@ section {
     z-index: 100000;
     /* top: 0; */
 }
+
+.meet_john .take_virals {
+    background-color: transparent;
+}
+
+.green_urls a {
+    font-weight: 600;
+    margin-top: 0;
+    color: #71b417;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.green_urls a img {
+    width: 16px;
+}
+
+.botom_read_mores {
+    float: left;
+    width: 100%;
+    display: flex;
+}
+
+.botom_read_mores a {
+    background: #71b417;
+    color: #fff;
+    width: fit-content;
+    padding: 12px 48px;
+    font-weight: 600;
+    border-radius: 50px;
+    float: left;
+    text-align: center;
+    margin: auto;
+}
+
+.sixth_sec {
+    margin-top: 80px;
+    padding: 0 75px;
+    position: relative;
+}
+
+.looking_correct_title h2 {
+    margin-bottom: 45px;
+    background: #e06426;
+    color: #fff;
+    padding: 15px 30px;
+    width: fit-content;
+    font-weight: 600;
+}
+
+.looks_towards {}
+
+.left_looks_ig {
+    position: absolute;
+}
+
+.looking_correct_title h2 {
+    margin-bottom: 45px;
+    background: #e06426;
+    color: #fff;
+    padding: 15px 30px;
+    width: fit-content;
+    font-weight: 600;
+}
+
+.looking_correct_title {
+    margin-left: 140px;
+}
+
+
+.looking_correct_title .slider {
+    padding: 0;
+}
+
+.features_wraps {
+    background-color: rgba(236, 236, 236, 0.6);
+}
+
+.features_wraps .row {
+    align-items: center;
+}
+
+.leftside_fea p {
+    font-weight: 600;
+    margin-top: 22px;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.leftside_fea p b {
+    color: #e06426;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.leftside_fea {
+    padding: 0px 140px;
+}
+
+.sixth_sec .slider .owl-nav {
+    justify-content: center;
+    width: 100%;
+    right: 0;
+    bottom: -60px;
+}
+
+.left_looks_ig img {
+    width: 63%;
+}
+
+.leftside_fea a img {
+    width: 16px !important;
+    display: inline !important;
+}
+
+.leftside_fea a {
+    font-weight: 600;
+    margin-top: 22px;
+    font-size: 22px;
+    line-height: 36px;
+    color: #e06426;
+}
+
+.looking_org_arrs {
+    position: absolute;
+    bottom: -90px;
+    right: 0;
+    text-align: end;
+}
+
+.looking_org_arrs img {
+    width: 65%;
+}
+
+.donor_volun {
+    margin-top: 200px;
+    background: #f5f5f5;
+    padding: 50px 50px 100px;
+}
+
+.left_side_ig img {
+    width: 100%;
+}
+
+.right_side_dls h2 {
+    margin-bottom: 45px;
+    background: #227f77;
+    color: #fff;
+    padding: 15px 30px;
+    width: fit-content;
+}
+
+.right_side_dls p {
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 22px;
+    margin-bottom: 45px;
+}
+
+.quotes_donors {
+    display: flex;
+    gap: 20px;
+}
+
+.quotes_donors img {
+    width: 55px;
+    height: fit-content;
+}
+
+.quotes_donors b {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.quotes_donors b p {
+    margin-bottom: 0;
+}
+
+.right_side_dls {
+    width: 90%;
+    margin-left: auto;
+}
+
+.donor_wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.pdf_img img {
+    width: 65px;
+}
+
+.pdf_img a {
+    font-size: 22px;
+    font-weight: 700;
+    color: #227f77;
+    text-decoration: underline;
+}
+
+.pdf_img {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 45px;
+}
+
+.right_side_dls h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31px;
+    margin-bottom: 45px;
+}
+
+.foresty_ul li {
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 24px;
+    margin-bottom: 28px;
+}
+
+.foresty_ul li span {
+    color: #227f77;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.foresty_ul ul {
+    border-left: 5px solid #227f77;
+    padding: revert;
+    margin-bottom: 45px;
+}
+
+.quote_twoas b p {
+    display: inline;
+}
+
+.donor_nav5 {
+    text-align: center;
+}
+
+.donor_nav5 img {
+    width: 11%;
+}
+
+.board_trusted {
+    background-image: url(../img/board_bg.jpg);
+    padding: 50px 75px 100px;
+    /* margin-bottom: 70px; */
+    position: relative;
+}
+
+.board_trusted_title h2 {
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, .09);
+    color: #fff;
+    padding: 10px 20px;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.board_cols h4 {
+    margin-bottom: 18px;
+    color: #fff;
+    width: fit-content;
+    font-weight: 600;
+}
+
+.board_cols li a {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.board_trusted_title .row {
+    justify-content: space-between;
+    z-index: 99999;
+    position: relative;
+}
+
+.board_boost {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: end;
+}
+
+.board_boost img {
+    width: 70%;
+}
+
+.board_4_cols h4 {
+    opacity: 0;
+}
+
+.rightside_staff img {
+    width: 100%;
+}
+
+.leadership_staaf .row {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    background: #eaeaea;
+}
+
+.leadership_staaf .row .col-md-6 {
+    padding: 0;
+}
+
+.leftside_staff h2 {
+    margin-bottom: 45px;
+    background: #146483;
+    color: #fff;
+    padding: 15px 30px;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.leftside_staff ul li {
+    font-weight: 600;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.leftside_staff ul li span {
+    color: #146483;
+}
+
+.leadership_staaf {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.leftside_staff {
+    width: 70%;
+    margin: auto;
+}
+
+.recip_bavs {
+    position: absolute;
+    right: 195px;
+}
+
+.recip_bavs img {
+    width: 60%;
+}
+
+.financial_reports_title h2 {
+    margin-bottom: 45px;
+    background: #146483;
+    color: #fff;
+    padding: 15px 30px;
+    width: fit-content;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.financial_reports .leadership_staaf .row {
+    background-color: transparent;
+}
+
+.balance_shhets {
+    margin-top: 70px;
+}
+
+.balance_shhets h4 {
+    color: #146483;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.assets_list ul li {
+    display: flex;
+    justify-content: space-between;
+    color: #3c3c3c;
+}
+
+.assets_list h6 {
+    color: #146483;
+    margin-bottom: 7px;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid #146483;
+    padding-bottom: 4px;
+}
+
+.assets_list ul li span {
+    color: #3c3c3c;
+}
+
+.property span {
+    border-bottom: 1px solid #3c3c3c;
+}
+
+.total_ass p {
+    font-weight: 700;
+}
+
+.assets_list {
+    margin-bottom: 15px;
+}
+
+.total_assetss p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.total_assetss span {
+    font-weight: 700;
+}
+
+.total_assetss {
+    margin-top: 12px !important;
+}
+
+.rightside_opers h2 {
+    opacity: 0;
+}
+
+.support_prices {
+    display: flex;
+    gap: 24px;
+}
+
+.last_pro p {
+    opacity: 0;
+}
+
+.support_prices span:last-child {
+    width: 50px;
+    text-align: end;
+}
+
+.surplus_prices {
+    margin-top: 30px !important;
+}
+
+.surplus_prices .support_prices span:last-child {
+    opacity: 0;
+}
+
+.revenue_secs {
+    position: relative;
+    background: rgba(243, 243, 243, .75);
+    padding: 25px;
+    width: 85%;
+    margin: 80px auto auto;
+    border-radius: 35px;
+}
+
+.revenue_ig img {
+    width: 100%;
+}
+
+.rightside_revenues h4 {
+    color: #146483;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.rightside_revenues p {
+    color: #3c3c3c;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.rightside_revenues {
+    width: 80%;
+    margin: auto;
+}
+
+.propertys_sec {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.color_depnds img {
+    width: 30px;
+}
+
+.color_depnds {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.color_depnds span {
+    color: #3c3c3c;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.top_navs_reven {
+    position: absolute;
+    right: -70px;
+    top: -30px;
+    text-align: end;
+}
+
+.top_navs_reven img {
+    width: 70%;
+}
+
+.expences_sec .row {
+    flex-direction: row-reverse;
+}
+
+/* video css */
+
+#video-popup-container {
+    display: none;
+    position: fixed;
+    z-index: 996;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top: 20%;
+    background-color: #fff;
+}
+
+#video-popup-close {
+    cursor: pointer;
+    position: absolute;
+    right: -10px;
+    top: -50px;
+    z-index: 998;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 34px;
+    background-color: transparent;
+    line-height: 25px;
+    color: #fff;
+    font-weight: 400;
+}
+
+#video-popup-iframe-container {
+    position: absolute;
+    z-index: 997;
+    width: 100%;
+    padding-bottom: 56.25%;
+    border: 2px solid #000;
+    border-radius: 2px;
+    background-color: #000;
+}
+
+#video-popup-iframe {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+}
+
+#video-popup-overlay {
+    display: none;
+    position: fixed;
+    z-index: 995;
+    top: 0;
+    background-color: #000;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+}
+
+#video-popup-close:hover {
+    color: #DE0023;
+}
+
+.fade:not(.show) {
+    opacity: 1;
+}
+
+/* rightside menjus */
+
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background: #fff;
+    border: 1px solid;
+    overflow-x: hidden;
+    padding-top: 30px;
+    transition: 0.5s;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    /* position: absolute; */
+    top: 0;
+    right: 25px;
+    font-size: 70px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.sidenav {
+    right: 0;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.sidenav {
+    right: 0;
+}
+
+.top_menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_menus h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
