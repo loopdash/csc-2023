@@ -25,6 +25,10 @@ ul {
     padding: 0 60px
 }
 
+.mobile {
+    display: none !important;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -77,7 +81,8 @@ section {
 }
 
 .footer {
-    background: url(../img/footer_bg.jpg);
+    background: url(../img/footer_bg_1.jpg);
+    background-size: cover;
 }
 
 .footer_div {
@@ -484,6 +489,10 @@ section {
     margin-bottom: 25px;
 }
 
+.take_virals .row {
+    /* background-color: #f9f9f9; */
+}
+
 .take_virals_para {
     border-left: 5px solid #71b417;
 }
@@ -821,7 +830,7 @@ section {
     border-left: 5px solid #126085;
 }
 
-.meet_kyles .take_virals {
+.meet_kyles .take_virals .row {
     background-color: rgba(223, 223, 223, 0.35);
 }
 
@@ -1226,6 +1235,7 @@ section {
 
 .financial_reports .leadership_staaf .row {
     background-color: transparent;
+    align-items: flex-start;
 }
 
 .balance_shhets {
@@ -1464,6 +1474,7 @@ section {
     overflow-x: hidden;
     padding-top: 30px;
     transition: 0.5s;
+    height: fit-content;
 }
 
 /* The navigation menu links */
@@ -1479,7 +1490,7 @@ section {
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover,
 .offcanvas a:focus {
-    color: #f1f1f1;
+    /* color: #f1f1f1; */
 }
 
 /* Position and style the close button (top right corner) */
@@ -1498,7 +1509,7 @@ section {
 }
 
 .sidenav {
-    right: 0;
+    right: -3px !important;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -1525,4 +1536,91 @@ section {
 .top_menus h2 {
     font-size: 28px;
     font-weight: bold;
+}
+
+.navs_menus li a {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+    padding-left: 20px;
+    line-height: 1;
+}
+
+.navs_menus ul {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.nav_wraps {
+    width: 80%;
+    margin: auto;
+}
+
+.nav1 a {
+    border-left: 5px solid #005b85;
+}
+
+.nav2 a {
+    border-left: 5px solid #4c3276;
+}
+
+.nav3 a {
+    border-left: 5px solid #71b417;
+}
+
+.nav4 a {
+    border-left: 5px solid #e06426;
+}
+
+.navs_menus li {}
+
+.nav_btn a {
+    background: linear-gradient(90deg, rgba(18, 96, 133, 1) 0%, rgba(27, 112, 125, 1) 100%);
+    color: #fff;
+    width: auto;
+    padding: 10px 20px !important;
+    float: left;
+    border-radius: 50px;
+    font-weight: 600 !important;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+}
+
+.con_supports {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.take_virals_para .col-md-2 {
+    padding: 0;
+}
+
+.csc_mb_sli img {
+    width: 100%;
+}
+
+.csc_mb_fera .leftside_fea {
+    padding: 0;
+}
+
+.csc_mb_fera .leftside_fea p,
+.csc_mb_fera .leftside_fea p b,
+.csc_mb_fera .leftside_fea p a {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.csc_mb_fera .leftside_fea p {
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.furure_looking.mobile .csc_mb_sli {
+    margin-bottom: 40px;
 }
