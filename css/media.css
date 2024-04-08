@@ -74,21 +74,38 @@
     .take_virals_para .col-md-2 {
         width: 25%;
     }
-    .leadership_right p{    line-height: normal;
-    font-weight: normal;}
-    .leadership_right ul li{    font-weight: normal;}
+
+    .leadership_right p {
+        line-height: normal;
+        font-weight: normal;
+    }
+
+    .leadership_right ul li {
+        font-weight: normal;
+    }
+
     .csc_impact_title p {
-    font-weight: normal;}
-    .takes_dlss p{font-weight: normal;font-size: 18px;}
+        font-weight: normal;
+    }
+
+    .takes_dlss p {
+        font-weight: normal;
+        font-size: 18px;
+    }
+
     .meet_kyles .takes_dlss_bdr .new_storr_dls p {
-    font-weight: normal;
-    font-size: 18px;
-}
-.take_virals_para .new_storr_dls p {
-    font-size: 18px;
-    font-weight: normal;
-}
-.board_cols li a{font-size: 15px;}
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+    .take_virals_para .new_storr_dls p {
+        font-size: 18px;
+        font-weight: normal;
+    }
+
+    .board_cols li a {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 1300px) {
@@ -1061,52 +1078,78 @@
     }
 
     .sidenav {
-        width: 100%;    height: 100%;
+        /* width: 100%; */
+        height: 100%;
     }
+
     .read_more_div.hidden {
-    height: 32vh;}
-    .leadership_right a{left: 15px;}
+        height: 32vh;
+    }
+
+    .leadership_right a {
+        left: 15px;
+    }
+
     #video-popup-container {
-    width: 90%;
-    left: 5%;
-    margin-left: 0;
-}
+        width: 90%;
+        left: 5%;
+        margin-left: 0;
+    }
 
 
 }
+
 @media screen and (max-width: 375px) {
-.banner_right {
-    padding: 50px 20px 0;}
-.slider {
-    padding: 15px;
-}
-.leadership {
-    padding: 0 15px;}
-.left_abouts {
-    padding: 40px 15px;
-}
-.leadership_profile {
-    flex-direction: column;}
-.sixth_sec, .csc_impact, .board_trusted {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.msg_greens img{display: none;}
-.take_virals_para .takes_dlss {
-    padding: 22px 15px;
-}
-.take_virals {
-    padding: 15px;
-}
-.donor_volun {
-    padding: 50px 15px 100px;
-}
-.leftside_staff {
-    padding: 40px 15px;
-}
-.container {
-    padding: 0 15px;
-}
+    .banner_right {
+        padding: 50px 20px 0;
+    }
+
+    .slider {
+        padding: 15px;
+    }
+
+    .leadership {
+        padding: 0 15px;
+    }
+
+    .left_abouts {
+        padding: 40px 15px;
+    }
+
+    .leadership_profile {
+        flex-direction: column;
+    }
+
+    .sixth_sec,
+    .csc_impact,
+    .board_trusted {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .msg_greens img {
+        display: none;
+    }
+
+    .take_virals_para .takes_dlss {
+        padding: 22px 15px;
+    }
+
+    .take_virals {
+        padding: 15px;
+    }
+
+    .donor_volun {
+        padding: 50px 15px 100px;
+    }
+
+    .leftside_staff {
+        padding: 40px 15px;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
 
 
 }
