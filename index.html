@@ -1843,8 +1843,7 @@
 <!-- counter number -->
 
 <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        function counter(id, start, end, duration) {
+     function counter(id, start, end, duration) {
             let obj = document.getElementById(id),
                 current = start,
                 range = end - start,
@@ -1858,17 +1857,57 @@
                     }
                 }, step);
         }
+
+        var flagcount1=0;
+        var flagcount4=0;
+        var flagcount3=0;
+        var flagcount5=0;
+    document.addEventListener("scroll", () => {
+        const scrollPosition = window.scrollY;
+       
+        const desiredPosition1 = 3510;
+        
+        console.log(scrollPosition);
+        if (scrollPosition >= desiredPosition1 && flagcount1==0) {
+            flagcount1=1;
         counter("count1", 0, 87, 3000);
         counter("count2", 100, 457, 2500);
-        counter("count3", 0, 550, 5000);
+        
+        }
+        const desiredPosition2 = 4854;
+     
+        if (scrollPosition >= desiredPosition2 && flagcount3==0) {
+            flagcount3=1;
+            counter("count3", 0, 550, 5000);
         counter("count4", 0, 100, 5000);
         counter("count5", 0, 100, 6000);
+        
+        }
+        const desiredPosition4 = 5867;
+       
+        if (scrollPosition >= desiredPosition4 && flagcount4==0) {
+            flagcount4=1;
+          
         counter("count6", 0, 144, 6000);
         counter("count7", 0, 93, 7000);
         counter("count8", 0, 50, 7500);
         counter("count9", 0, 112, 8000);
         counter("count10", 0, 242, 8500);
         counter("count11", 0, 98, 9000);
+     
+        }
+        const desiredPosition5 = 5867;
+       
+       if (scrollPosition >= desiredPosition5 && flagcount5==0) {
+        flagcount5=1;         
+  
+       counter("count10", 0, 242, 8500);
+       counter("count11", 0, 98, 9000);
+    
+       }
+       
+   
+        
     });
 
 </script>
