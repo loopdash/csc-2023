@@ -1,5 +1,7 @@
 @media screen and (max-width: 1600px) {
-    .nubs_secs_title h4 {
+
+    .nubs_secs_title h4,
+    .nubs_secs_title span {
         font-size: 54px;
     }
 
@@ -29,7 +31,7 @@
     }
 
     .leftside_fea {
-        padding: 0px 70px;
+        /* padding: 0px 70px; */
     }
 
     .leftside_fea p {
@@ -105,6 +107,15 @@
 
     .board_cols li a {
         font-size: 15px;
+    }
+
+    .csc_sliders .nubs_secs {
+        background: #efefef;
+        min-height: auto;
+    }
+
+    .youtubes_sec_wrap iframe {
+        height: 590px;
     }
 }
 
@@ -234,6 +245,10 @@
         padding-left: 14px;
     }
 
+    .nubs_secs_title span {
+        font-size: 42px;
+    }
+
     .nubs_secs_title p {
         padding-left: 14px;
         font-size: 14px;
@@ -329,6 +344,20 @@
 
     .top_navs_reven img {
         width: 40%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .features_wraps .col-md-8 {
+        width: 61.66%;
+    }
+
+    .leftside_fea {
+        padding: 0px 0 0 0px;
+    }
+
+    .features_wraps_2 .leftside_fea {
+        padding: 0px 0px 0 0;
     }
 }
 
@@ -437,7 +466,7 @@
     }
 
     .looking_correct_title {
-        margin-left: 80px;
+        /* margin-left: 80px; */
     }
 
     .looking_org_arrs {
@@ -494,7 +523,11 @@
     }
 
     .color_depnds img {
-        width: 20px;
+        width: 16px;
+    }
+
+    .top_navs_reven img {
+        width: 30%;
     }
 
     .revenue_secs .row {
@@ -503,6 +536,33 @@
 
     .new_storr_dls p a {
         font-size: 16px;
+    }
+
+    .youtubes_sec_wrap iframe {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    .features_wraps .col-md-8,
+    .features_wraps .col-md-4 {
+        width: 100%;
+    }
+
+    .leftside_fea p,
+    .leftside_fea p b,
+    .leftside_fea a {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .leftside_fea {
+        margin-top: 22px;
+    }
+
+    .features_wraps_2 .row {
+        flex-direction: column-reverse;
     }
 }
 
@@ -613,6 +673,10 @@
     .leadership_staaf ul li {
         font-size: 12px;
     }
+
+    .youtubes_sec_wrap iframe {
+        height: 420px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -622,6 +686,11 @@
 
     .mobile {
         display: block !important;
+    }
+
+
+    a {
+        font-size: 16px;
     }
 
     .banner_right_content {
@@ -865,6 +934,10 @@
         padding-left: 25px;
     }
 
+    .nubs_secs_title span {
+        font-size: 56px;
+    }
+
     .nubs_secs_title p {
         padding-left: 25px;
         font-size: 18px;
@@ -1096,7 +1169,44 @@
         margin-left: 0;
     }
 
+    .support_bars a {
+        font-size: 16px;
+    }
 
+    .support_bars a img {
+        width: 14%;
+    }
+
+    .close_sports a {
+        font-size: 40px !important;
+    }
+
+
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 70%;
+        margin: 1.75rem auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .support_bars {
+        padding: 12px;
+    }
+
+    .support_bars a {
+        font-size: 14px;
+    }
+
+    .support_bars {
+        bottom: 68px;
+    }
+
+    .youtubes_sec_wrap iframe {
+        height: 270px;
+    }
 }
 
 @media screen and (max-width: 375px) {

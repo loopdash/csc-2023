@@ -202,6 +202,7 @@ section {
 
 .slider {
     padding: 30px;
+    position: relative;
 }
 
 .owl-dots {
@@ -268,7 +269,8 @@ section {
 }
 
 .leadership_right h2 {
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    font-size: 28px;
 }
 
 .leadership_right {
@@ -457,6 +459,7 @@ section {
     padding: 15px 30px;
     width: fit-content;
     font-weight: 600;
+    font-size: 28px;
 }
 
 .ctc_icon_title {
@@ -619,6 +622,18 @@ section {
     font-weight: 500;
 }
 
+.nubs_secs_title span {
+    font-size: 68px;
+    padding-left: 0;
+    color: #71b417;
+    font-weight: 500;
+}
+
+.nub_pertagess {
+    display: flex;
+    align-items: center;
+}
+
 .nubs_secs_title p {
     font-size: 18px;
     padding-left: 25px;
@@ -709,8 +724,9 @@ section {
     padding-top: 10px;
 }
 
-.csc_sliders .nubs_secs_title h4 {
-    color: #126085;
+.csc_sliders .nubs_secs_title h4,
+.green_span {
+    color: #126085 !important;
 }
 
 .csc_sliders .nubs_secs_title {
@@ -719,6 +735,7 @@ section {
 
 .csc_sliders .nubs_secs {
     background: #efefef;
+    min-height: 210px;
 }
 
 .new_store_bg {
@@ -930,12 +947,16 @@ a.botom_read_mores {
     padding: 15px 30px;
     width: fit-content;
     font-weight: 600;
+    font-size: 28px;
 }
 
 .looks_towards {}
 
 .left_looks_ig {
     position: absolute;
+    right: 0;
+    text-align: end;
+    top: 15%;
 }
 
 .looking_correct_title h2 {
@@ -948,7 +969,7 @@ a.botom_read_mores {
 }
 
 .looking_correct_title {
-    margin-left: 140px;
+    /* margin-left: 140px; */
 }
 
 
@@ -957,16 +978,21 @@ a.botom_read_mores {
 }
 
 .features_wraps {
-    background-color: rgba(236, 236, 236, 0.6);
+    /* background-color: rgba(236, 236, 236, 0.6); */
+    background-color: #fff;
 }
 
 .features_wraps .row {
     align-items: center;
 }
 
+.features_wraps .col-md-8 {
+    width: 55%;
+}
+
 .leftside_fea p {
     font-weight: 600;
-    margin-top: 22px;
+    /* margin-top: 22px; */
     font-size: 22px;
     line-height: 36px;
 }
@@ -977,8 +1003,25 @@ a.botom_read_mores {
     font-size: 26px;
 }
 
-.leftside_fea {
+.lokking_flex_navs {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-top: 70px;
+}
+
+/* .leftside_fea {
     padding: 0px 140px;
+} */
+
+.leftside_fea {
+    padding: 0px 0 0 45px;
+    width: 100%;
+}
+
+.features_wraps_2 .leftside_fea {
+    padding: 0px 45px 0 0;
+    /* width: 90%; */
 }
 
 .sixth_sec .slider .owl-nav {
@@ -989,7 +1032,7 @@ a.botom_read_mores {
 }
 
 .left_looks_ig img {
-    width: 63%;
+    width: 45%;
 }
 
 .leftside_fea a img {
@@ -1007,17 +1050,17 @@ a.botom_read_mores {
 
 .looking_org_arrs {
     position: absolute;
-    bottom: -90px;
+    top: 0;
     right: 0;
     text-align: end;
 }
 
 .looking_org_arrs img {
-    width: 65%;
+    width: 55%;
 }
 
 .donor_volun {
-    margin-top: 200px;
+    margin-top: 120px;
     background: #f5f5f5;
     padding: 50px 50px 100px;
 }
@@ -1032,6 +1075,8 @@ a.botom_read_mores {
     color: #fff;
     padding: 15px 30px;
     width: fit-content;
+    font-size: 28px;
+    font-weight: 600;
 }
 
 .right_side_dls p {
@@ -1481,7 +1526,7 @@ a.botom_read_mores {
     z-index: 999999;
     top: 0;
     background: #fff;
-    border: 1px solid;
+    border: 1px solid lightgray;
     overflow-x: hidden;
     padding-top: 30px;
     transition: 0.5s;
@@ -1726,4 +1771,95 @@ a.botom_read_mores {
     background-color: #126085;
     height: 5px;
     width: 0%;
+}
+
+.rightside_fea img {
+    width: 100%;
+}
+
+.support_bars {
+    background: #71b417;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999999;
+    left: 0;
+    bottom: 0;
+}
+
+.support_bars a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    text-decoration: underline;
+}
+
+.support_bars a img {
+    padding-left: 10px;
+}
+
+.close_sports a {
+    font-size: 52px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-weight: 200;
+    line-height: unset;
+}
+
+.green_both_bars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.close_sports {
+    position: absolute;
+    right: 20px;
+    line-height: 0;
+}
+
+/* .property.total_ass span,
+.property.total_assetss span {
+    border-bottom: 4px double;
+}
+
+.support_prices span  {
+    border-bottom: 4px double;
+} */
+
+.double_lines {
+    border-bottom: 4px double !important;
+}
+
+.youtubes_sec_wrap iframe {
+    width: 100%;
+    height: 720px;
+}
+
+.video_modal .modal-body {
+    padding: 0 !important;
+    border-radius: 0;
+}
+
+.close_buttons_sec {
+    text-align: end;
+    margin-bottom: 30px;
+}
+
+.close_buttons_sec .btn-close {
+
+    background: transparent url("../img/download.svg");
+
+    opacity: 1;
+
+}
+
+.modal.video_modal {
+    z-index: 9999999;
+}
+
+.financial_reports .renue_charts_row .row {
+    align-items: center !important;
 }
