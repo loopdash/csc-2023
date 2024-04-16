@@ -129,6 +129,8 @@ section {
     position: absolute;
     right: 0;
     top: -35px;
+    box-shadow: 0 4px 8px 0 rgba(35, 0, 0, 0.5);
+    border-radius: 50px;
 }
 
 .copy_right p a {
@@ -639,6 +641,8 @@ section {
     padding-left: 25px;
     font-weight: 600;
     line-height: 21px;
+    z-index: 99999999999;
+    position: relative;
 }
 
 .nub_rights_wrap {
@@ -1000,7 +1004,7 @@ a.botom_read_mores {
 .leftside_fea p b {
     color: #e06426;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 .lokking_flex_navs {
@@ -1862,4 +1866,18 @@ a.botom_read_mores {
 
 .financial_reports .renue_charts_row .row {
     align-items: center !important;
+}
+
+.emmit_btns {
+    background: transparent !important;
+    text-decoration: underline;
+    color: #71b417 !important;
+    background: unset !important;
+    padding: 0 !important;
+    font-size: 24px !important;
+    font-weight: 700 !important;
+}
+
+.kyalles_btns.emmit_btns {
+    color: #126085 !important;
 }
