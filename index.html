@@ -490,8 +490,7 @@
 
                                                             <p>“It's like family,” Darlene said.</p>
                                                         </div>
-                                                        <a href="javascript:void(0);" class="read_more_btn">Read
-                                                            More</a>
+                                                        <a href="javascript:void(0);" class="read_more_btn">Read More</a>
                                                     </div>
                                                     <div class="pre_navss">
                                                         <img src="./img/preschool_navs.png" alt="">
@@ -762,8 +761,7 @@
                                                                 Sight Center. It is a great way to learn and get to meet
                                                                 people at the same time,” John said.</p>
                                                         </div>
-                                                        <a href="javascript:void(0);" class="read_more_btn">Read
-                                                            More</a>
+                                                        <a href="javascript:void(0);" class="read_more_btn">Read More</a>
                                                     </div>
                                                     <div class="pre_navss">
                                                         <img src="./img/preschool_navs.png" alt="">
@@ -1893,10 +1891,12 @@
 <script>
 
     $(".read_more_btn").click(function () {
+
         var currentText = '';
         $(this).siblings(".read_more_div").toggleClass("hidden");;
         //$(this).siblings(".read_more_div").toggleClass("bg_after");        
         var currentText = $(this).text();
+        // alert(currentText);
         var newText = currentText === "Read More" ? "Read Less" : "Read More";
         $(this).text(newText);
     });
