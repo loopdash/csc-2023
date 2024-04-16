@@ -519,6 +519,7 @@ section {
     color: #71b417;
     background: unset;
     padding: 0;
+    font-size: 22px;
 }
 
 .csc_impact_title {
@@ -641,7 +642,7 @@ section {
     padding-left: 25px;
     font-weight: 600;
     line-height: 21px;
-    z-index: 99999999999;
+    z-index: 9;
     position: relative;
 }
 
