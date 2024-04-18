@@ -318,6 +318,7 @@ section {
     position: absolute;
     left: 0;
     bottom: 0;
+    font-size: 16px;
 }
 
 .moretext {
@@ -515,11 +516,11 @@ section {
 }
 
 .take_virals_para p a {
-    text-decoration: underline;
     color: #71b417;
+    text-decoration: underline;
     background: unset;
     padding: 0;
-    font-size: 22px;
+    /* font-size: 22px; */
 }
 
 .csc_impact_title {
@@ -579,6 +580,7 @@ section {
     padding: 12px 48px;
     font-weight: 600;
     border-radius: 50px;
+    font-size: 20px;
 }
 
 .pre_navss {
@@ -678,10 +680,12 @@ section {
     right: 0;
     top: 0;
     height: 100%;
+    text-align: end;
 }
 
 .msg_greens img {
-    height: 100%;
+    /* height: 100%; */
+    width: 50%;
 }
 
 
@@ -937,6 +941,7 @@ a.botom_read_mores {
     margin: auto;
     display: table;
     margin: auto;
+    font-size: 16px;
 }
 
 .sixth_sec {
@@ -1067,7 +1072,7 @@ a.botom_read_mores {
 .donor_volun {
     margin-top: 120px;
     background: #f5f5f5;
-    padding: 50px 50px 100px;
+    padding: 50px 75px 100px;
 }
 
 .left_side_ig img {
@@ -1111,8 +1116,9 @@ a.botom_read_mores {
 }
 
 .right_side_dls {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
+    padding: 0px 0 0 45px;
 }
 
 .donor_wrap {
@@ -1122,7 +1128,7 @@ a.botom_read_mores {
 }
 
 .pdf_img img {
-    width: 65px;
+    width: 55px;
 }
 
 .pdf_img a {
@@ -1645,7 +1651,7 @@ a.botom_read_mores {
     float: left;
     border-radius: 50px;
     font-weight: 600 !important;
-    font-size: 22px;
+    font-size: 16px;
     width: 100%;
     text-align: center;
 }
@@ -1708,7 +1714,7 @@ a.botom_read_mores {
 }
 
 .read_more_div.hidden {
-    height: 12vh;
+    height: 13.5vh;
     overflow: hidden;
     margin-bottom: 20px;
     position: relative;
@@ -1881,4 +1887,8 @@ a.botom_read_mores {
 
 .kyalles_btns.emmit_btns {
     color: #126085 !important;
+}
+
+.preschools_wraps {
+    padding-right: 20px;
 }

@@ -90,7 +90,8 @@
         font-weight: normal;
     }
 
-    .takes_dlss p {
+    .takes_dlss p ,
+        .takes_dlss p a{
         font-weight: normal;
         font-size: 18px;
     }
@@ -117,6 +118,10 @@
     .youtubes_sec_wrap iframe {
         height: 590px;
     }
+
+    /* .read_more_div.hidden {
+        height: 14vh;
+    } */
 }
 
 @media screen and (max-width: 1300px) {
@@ -201,7 +206,12 @@
         font-size: 18px;
     }
 
-    .takes_dlss p {
+    .emmit_btns {
+        font-size: 18px !important;
+    }
+
+    .takes_dlss p,
+    .take_virals_para p a {
         font-size: 16px;
     }
 
@@ -301,7 +311,8 @@
     }
 
     .right_side_dls {
-        width: 95%;
+        width: 100%;
+        padding: 0px 0 0 20px;
     }
 
     .pdf_img a,
@@ -311,7 +322,7 @@
     }
 
     .pdf_img img {
-        width: 42px;
+        width: 30px;
     }
 
     .pdf_img {
@@ -359,6 +370,10 @@
     .features_wraps_2 .leftside_fea {
         padding: 0px 0px 0 0;
     }
+
+    .right_side_dls {
+        padding: 0px 0 0 0;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -366,9 +381,15 @@
     /* wrap */
     .sixth_sec,
     .csc_impact,
-    .board_trusted {
+    .board_trusted,
+    .donor_volun {
         padding-left: 40px;
         padding-right: 40px;
+    }
+
+    .donor_volun {
+        padding-left: 40px !important;
+        padding-right: 40px !important;
     }
 
 
@@ -404,6 +425,10 @@
 
     .takes_dlss h4 {
         font-size: 16px;
+    }
+
+    .emmit_btns {
+        font-size: 16px !important;
     }
 
     .left_abouts p {
@@ -848,7 +873,8 @@
 
     .ctc_icon_title img,
     .new_storr_ig img,
-    .quotes_donors img {
+    .quotes_donors img,
+    .pdf_img img {
         width: 38px;
     }
 
@@ -898,6 +924,14 @@
     .take_virals_para p,
     .takes_dlss h4 {
         font-size: 22px;
+    }
+
+    .take_virals_para p a {
+        font-size: 22px;
+    }
+
+    .emmit_btns {
+        font-size: 22px !important;
     }
 
     .takes_preschools .takes_dlss_bdr p {
@@ -1237,6 +1271,11 @@
         padding-right: 15px;
     }
 
+    /* .donor_volun {
+        padding-left: 15px;
+        padding-right: 15px;
+    } */
+
     .msg_greens img {
         display: none;
     }
@@ -1250,7 +1289,7 @@
     }
 
     .donor_volun {
-        padding: 50px 15px 100px;
+        padding: 50px 15px 100px !important;
     }
 
     .leftside_staff {
