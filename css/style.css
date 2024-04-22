@@ -520,7 +520,7 @@ section {
     text-decoration: underline;
     background: unset;
     padding: 0;
-    /* font-size: 22px; */
+    font-size: 20px;
 }
 
 .csc_impact_title {
@@ -580,7 +580,7 @@ section {
     padding: 12px 48px;
     font-weight: 600;
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .pre_navss {
@@ -775,11 +775,11 @@ section {
     margin-top: 0;
     color: #126085;
     text-decoration: underline;
-    font-size: 22px;
+    /* font-size: 22px; */
 }
 
 .new_storr_dls p a img {
-    width: 16px;
+    width: 12px;
 }
 
 .new_storr_dls span {
@@ -821,6 +821,7 @@ section {
     width: 85%;
     color: #126085;
     line-height: 30px;
+    font-size: 20px;
 }
 
 .whats_video .takes_dlss_bdr p {
@@ -922,7 +923,7 @@ section {
     margin-top: 0;
     color: #71b417;
     text-decoration: underline;
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .green_urls a img {
@@ -1881,7 +1882,7 @@ a.botom_read_mores {
     color: #71b417 !important;
     background: unset !important;
     padding: 0 !important;
-    font-size: 24px !important;
+    font-size: 20px !important;
     font-weight: 700 !important;
 }
 
