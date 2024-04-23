@@ -876,7 +876,7 @@
     .quotes_donors img,
     .pdf_img img {
         width: 38px;
-        height: fit-content;
+        /* height: fit-content; */
     }
 
     .ctc_icon_title {

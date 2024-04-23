@@ -1104,11 +1104,12 @@ a.botom_read_mores {
 .quotes_donors {
     display: flex;
     gap: 20px;
+    align-items: flex-start;
 }
 
 .quotes_donors img {
     width: 55px;
-    height: fit-content;
+    /* height: fit-content; */
 }
 
 .quotes_donors b {
@@ -1894,7 +1895,8 @@ a.botom_read_mores {
 .kyalles_btns.emmit_btns {
     color: #126085 !important;
 }
-.kyalles_btns.emmit_btns  img{
+
+.kyalles_btns.emmit_btns img {
     width: 12px;
 }
 
