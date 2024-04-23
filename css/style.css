@@ -286,7 +286,7 @@ section {
     float: left;
     margin-bottom: 32px;
     width: 100%;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .leadership_right ul {
@@ -298,7 +298,7 @@ section {
 .leadership_right ul li {
     display: flex;
     margin-bottom: 18px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .leadership_right ul li img {
@@ -517,10 +517,14 @@ section {
 
 .take_virals_para p a {
     color: #71b417;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     background: unset;
     padding: 0;
     /* font-size: 20px; */
+}
+
+.take_virals_para p a img {
+    width: 16px;
 }
 
 .csc_impact_title {
@@ -578,7 +582,7 @@ section {
     color: #fff;
     width: fit-content;
     padding: 12px 48px;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 50px;
     /* font-size: 18px; */
 }
@@ -765,14 +769,14 @@ section {
 
 .new_storr_dls p {
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 0;
     /* font-size: 22px; */
 }
 
 .new_storr_dls p a {
-    font-weight: 600;
-    margin-top: 0;
+    /* font-weight: 600; */
+    /* margin-top: 0; */
     color: #126085;
     text-decoration: underline;
     /* font-size: 22px; */
@@ -796,7 +800,7 @@ section {
 
 .impact_paras p {
     margin-bottom: 0;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 0;
     /* font-size: 22px; */
 }
@@ -817,7 +821,7 @@ section {
     background-color: transparent;
     margin: 0;
     /* font-size: 22px; */
-    font-weight: 600;
+    font-weight: 700;
     width: 85%;
     color: #126085;
     line-height: 30px;
@@ -827,7 +831,7 @@ section {
 .whats_video .takes_dlss_bdr p {
     margin: 0;
     /* font-size: 22px; */
-    font-weight: 600;
+    font-weight: 700;
     width: 85%;
     line-height: 30px;
 }
@@ -919,10 +923,10 @@ section {
 }
 
 .green_urls a {
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 0;
     color: #71b417;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     /* font-size: 18px; */
 }
 
@@ -1889,6 +1893,9 @@ a.botom_read_mores {
 
 .kyalles_btns.emmit_btns {
     color: #126085 !important;
+}
+.kyalles_btns.emmit_btns  img{
+    width: 12px;
 }
 
 .preschools_wraps {

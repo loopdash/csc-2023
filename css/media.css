@@ -79,20 +79,20 @@
 
     .leadership_right p {
         line-height: normal;
-        font-weight: normal;
+        /* font-weight: normal; */
     }
 
     .leadership_right ul li {
-        font-weight: normal;
+        /* font-weight: normal; */
     }
 
     .csc_impact_title p {
-        font-weight: normal;
+        /* font-weight: normal; */
     }
 
     .takes_dlss p,
     .takes_dlss p a {
-        font-weight: normal;
+        /* font-weight: normal; */
         font-size: 18px;
     }
 
