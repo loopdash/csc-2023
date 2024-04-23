@@ -44,11 +44,11 @@
     }
 
     .impact_paras p {
-        font-size: 18px;
+        /* font-size: 18px; */
     }
 
     .new_storr_dls p {
-        font-size: 20px;
+        /* font-size: 20px; */
     }
 
     .leftside_staff ul li {
@@ -60,13 +60,13 @@
     }
 
     .whats_video .takes_dlss_bdr p {
-        font-size: 20px;
+        /* font-size: 20px; */
     }
 }
 
 @media screen and (max-width: 1440px) {
     .takes_dlss h4 {
-        font-size: 22px;
+        /* font-size: 22px; */
     }
 
     .take_virals_para .col-md-10 {
@@ -90,19 +90,19 @@
         font-weight: normal;
     }
 
-    .takes_dlss p ,
-        .takes_dlss p a{
+    .takes_dlss p,
+    .takes_dlss p a {
         font-weight: normal;
         font-size: 18px;
     }
 
     .meet_kyles .takes_dlss_bdr .new_storr_dls p {
         font-weight: normal;
-        font-size: 18px;
+        /* font-size: 18px; */
     }
 
     .take_virals_para .new_storr_dls p {
-        font-size: 18px;
+        /* font-size: 18px; */
         font-weight: normal;
     }
 
@@ -212,7 +212,7 @@
 
     .takes_dlss p,
     .take_virals_para p a {
-        font-size: 16px;
+        /* font-size: 16px; */
     }
 
     .takes_dlss {
@@ -226,11 +226,11 @@
     .new_storr_dls p,
     .new_storr_dls p a,
     .new_storr_dls span {
-        font-size: 18px;
+        /* font-size: 18px; */
     }
 
     .impact_paras p {
-        font-size: 16px;
+        /* font-size: 16px; */
     }
 
     .takes_dlss_bdr {
@@ -239,7 +239,7 @@
 
     .whats_video .takes_dlss_bdr p>a,
     .whats_video .takes_dlss_bdr p {
-        font-size: 18px;
+        /* font-size: 18px; */
     }
 
     .whats_video .takes_dlss {
@@ -415,7 +415,7 @@
 
     .whats_video .takes_dlss_bdr p>a,
     .whats_video .takes_dlss_bdr p {
-        font-size: 16px;
+        /* font-size: 16px; */
         line-height: 20px;
     }
 
@@ -424,7 +424,7 @@
     }
 
     .takes_dlss h4 {
-        font-size: 16px;
+        /* font-size: 16px; */
     }
 
     .emmit_btns {
@@ -451,7 +451,7 @@
     }
 
     .take_virals_para p {
-        font-size: 16px;
+        /* font-size: 16px; */
         padding: 0 14px;
     }
 
@@ -468,7 +468,7 @@
     }
 
     .green_urls a {
-        font-size: 16px;
+        /* font-size: 16px; */
     }
 
     .green_urls a img {
@@ -649,7 +649,7 @@
     }
 
     .take_virals_para p {
-        font-size: 16px;
+        /* font-size: 16px; */
     }
 
     .board_cols li a {
@@ -923,11 +923,11 @@
 
     .take_virals_para p,
     .takes_dlss h4 {
-        font-size: 22px;
+        /* font-size: 22px; */
     }
 
     .take_virals_para p a {
-        font-size: 22px;
+        /* font-size: 22px; */
     }
 
     .emmit_btns {
@@ -1219,8 +1219,13 @@
 }
 
 @media (min-width: 576px) {
-    .modal-dialog {
+    .video_modal .modal-dialog {
         max-width: 70%;
+        margin: 1.75rem auto;
+    }
+
+    .what_technologys .modal-dialog {
+        max-width: 767px;
         margin: 1.75rem auto;
     }
 }
@@ -1240,6 +1245,10 @@
 
     .youtubes_sec_wrap iframe {
         height: 270px;
+    }
+
+    .what_technologys_title h2 {
+        font-size: 22px;
     }
 }
 
@@ -1300,5 +1309,8 @@
         padding: 0 15px;
     }
 
+    .what_technologys_title h2 {
+        font-size: 18px;
+    }
 
 }
