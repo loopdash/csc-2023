@@ -509,8 +509,7 @@
 
                                                             <p>“It's like family,” Darlene said.</p>
                                                         </div>
-                                                        <a href="javascript:void(0);" class="read_more_btn">Read
-                                                            More</a>
+                                                        <a href="javascript:void(0);" id="kaylee-text" class="read_more_btn fith_section_read_more_btn">Read More</a>
                                                     </div>
                                                     <div class="pre_navss">
                                                         <img src="./img/preschool_navs.png" alt="">
@@ -780,8 +779,7 @@
                                                                 Sight Center. It is a great way to learn and get to meet
                                                                 people at the same time,” John said.</p>
                                                         </div>
-                                                        <a href="javascript:void(0);" class="read_more_btn">Read
-                                                            More</a>
+                                                        <a href="javascript:void(0);" class="read_more_btn">Read More</a>
                                                     </div>
                                                     <div class="pre_navss">
                                                         <img src="./img/preschool_navs.png" alt="arrow icon">
@@ -895,11 +893,11 @@
                                                         </div>
 
                                                         <p>Not only is Barb an Early Intervention Specialist, she is
-                                                            also a certified Teacher of the Visually Impaired (TVI). <a
-                                                                href="#" data-bs-toggle="modal"
-                                                                data-bs-target="#exampleModal_8">This means that she can
+                                                            also a certified<a
+                                                            href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#exampleModal_8"> Teacher of the Visually Impaired (TVI)<img src="./img/greenaerrow_url.png" alt="green ascending icon">.</a> This means that she can
                                                                 provide tips and tricks
-                                                                to prepare children on her caseload to read braille. <img src="./img/greenaerrow_url.png" alt="green ascending icon"></a>
+                                                                to prepare children on her caseload to read braille. 
                                                             Kelsey expressed interest in learning braille so she can
                                                             help teach James in the future, and Barb is helping her do
                                                             just that! <b>James is only 2 years old and he already loves
@@ -933,7 +931,6 @@
                                                                 can do anything!</b></p>
                                                     </div>
                                                     <a href="javascript:void(0);" class="read_more_btn">Read More</a>
-
                                                 </div>
                                                 <div class="pre_navss">
                                                     <img src="./img/preschool_navs.png" alt="arrow icon">
@@ -1081,6 +1078,7 @@
                                         and celebrate our collective belief in creating an accessible world for
                                         everyone.
                                     </p>
+                                    <a class="donate-a" href="https://raceroster.com/events/2024/82127/2024-white-cane-walk" target=""_blank><button class="donate-more-btn">Donate & Register for White Cane Walk</button></a>
                                 </div>
                             </div>
 
@@ -1189,7 +1187,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>`
             <div class="row">
                 <div class="col-md-4 desktop">
                     <div class="left_side_ig">
@@ -2042,12 +2040,13 @@
 <script>
 
     $(".read_more_btn").click(function () {
-        var currentText = '';
+        console.log($(this).text())
         $(this).siblings(".read_more_div").toggleClass("hidden");;
         //$(this).siblings(".read_more_div").toggleClass("bg_after");        
         var currentText = $(this).text();
         // alert(currentText);
-        var newText = currentText === "Read More" ? "Read Less" : "Read More";
+        var newText = currentText == "Read More" ? "Read Less" : "Read More";
+        
         $(this).text(newText);
     });
 
@@ -2129,7 +2128,6 @@
 
         const desiredPosition1 = 3510;
 
-        console.log(scrollPosition);
         if (scrollPosition >= desiredPosition1 && flagcount1 == 0) {
             flagcount1 = 1;
             counter("count1", 0, 87, 3000);
