@@ -1199,7 +1199,7 @@
                     <div class="right_side_dls">
                         <div class="pdf_img">
                             <img src="./img/pfd.png" alt="">
-                            <a href="https://www.clevelandsightcenter.org/annual-report" target="_blank">The complete Honor Roll of
+                            <a href="https://www.clevelandsightcenter.org/sites/default/files/CSC_2023_DigitalPDF_004_1.pdf" target="_blank">The complete Honor Roll of
                                 Donors and Volunteers can be viewed online here.</a>
                         </div>
                         <h3>A special thank you goes out to all of the members of our giving societies. You have made an
@@ -1207,19 +1207,19 @@
                             you.
                         </h3>
                         <div class="foresty_ul">
-                            <ul>
-                                <li><span>The Foresight Society:</span> Established to honor all individuals who have
+                            <ul id="pdfNavigation">
+                                <li data-page="1"><span>The Foresight Society:</span> Established to honor all individuals who have
                                     made a legacy
                                     commitment to support Cleveland Sight
                                     Center in their will, estate plans, life income plans or other means.
                                 </li>
-                                <li><span>The Champions’ Society:</span> Members have given gifts totaling $5,000 or
+                                <li data-page="5"><span>The Champions’ Society:</span> Members have given gifts totaling $5,000 or
                                     more.</li>
-                                <li><span>The Leaders’ Society:</span> Members have given $2,500 to $4,999.</li>
-                                <li><span>The Ambassadors’ Society:</span> Members have given $1,000 to $2,499.</li>
-                                <li><span>The Advocates’ Society:</span> Members have given $500 to $999.</li>
-                                <li><span>Friends:</span> The following donors provided a gift up to $500.</li>
-                                <li><span>The Partners’ Society:</span> Members have made a recurring gift to Cleveland
+                                <li data-page="5"><span>The Leaders’ Society:</span> Members have given $2,500 to $4,999.</li>
+                                <li data-page="6"><span>The Ambassadors’ Society:</span> Members have given $1,000 to $2,499.</li>
+                                <li data-page="7"><span>The Advocates’ Society:</span> Members have given $500 to $999.</li>
+                                <li  data-page="8"><span>Friends:</span> The following donors provided a gift up to $500.</li>
+                                <li data-page="18"><span>The Partners’ Society:</span> Members have made a recurring gift to Cleveland
                                     Sight Center.</li>
                             </ul>
                         </div>
@@ -2216,5 +2216,25 @@
 
 
 </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get all <li> elements
+        var listItems = document.querySelectorAll("#pdfNavigation li");
+    
+        // Add click event listener to each <li> element
+        listItems.forEach(function(item) {
+            item.addEventListener("click", function() {
+                // Get the page number from the data-page attribute
+                var page = this.getAttribute("data-page");
+                // Construct the URL with the page parameter
+                var pdfURL = "https://www.clevelandsightcenter.org/sites/default/files/CSC_2023_DigitalPDF_004_1.pdf#page=" + page;
+                // Open the PDF in a new tab
+                window.open(pdfURL, "_blank");
+            });
+        });
+    });
+    </script>
+    </script>
 
 </html>

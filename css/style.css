@@ -1932,3 +1932,10 @@ a.botom_read_mores {
     font-size: 16px;
     margin-top: 1rem !important;
 }
+
+
+@media screen and (max-width: 768px) {
+    .fith_section_read_more_div.fith_section_hidden {
+        height: 255vh;
+    }
+}
