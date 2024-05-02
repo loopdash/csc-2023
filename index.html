@@ -2124,15 +2124,15 @@
     document.addEventListener("scroll", () => {
         const scrollPosition = window.scrollY;
 
-        const desiredPosition1 = 3510;
-
+        const desiredPosition1 = 2110;
+        console.log(scrollPosition)
         if (scrollPosition >= desiredPosition1 && flagcount1 == 0) {
             flagcount1 = 1;
             counter("count1", 0, 87, 3000);
             counter("count2", 100, 457, 2500);
 
         }
-        const desiredPosition2 = 4854;
+        const desiredPosition2 = 3354;
 
         if (scrollPosition >= desiredPosition2 && flagcount3 == 0) {
             flagcount3 = 1;
@@ -2141,7 +2141,7 @@
             counter("count5", 0, 100, 6000);
 
         }
-        const desiredPosition4 = 5867;
+        const desiredPosition4 = 3567;
 
         if (scrollPosition >= desiredPosition4 && flagcount4 == 0) {
             flagcount4 = 1;
