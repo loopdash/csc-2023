@@ -1293,7 +1293,7 @@ a.botom_read_mores {
 }
 
 .recip_bavs img {
-    width: 60%;
+    width: 40%;
 }
 
 .financial_reports_title h2 {
@@ -1915,12 +1915,16 @@ a.botom_read_mores {
     font-size: 24px;
     margin-bottom: 16px;
 }
+
 .color_depends_span {
     color: #3c3c3c;
     font-size: 20px;
     font-weight: 600;
 }
 
+#pdfNavigation span {
+    cursor: pointer;
+}
 .color_depends_span:hover {
     color: inherit;
 }
@@ -1940,6 +1944,18 @@ a.botom_read_mores {
     font-size: 16px;
     margin-top: 1rem !important;
 }
+ .organe-btn {
+    text-align: end; 
+    background-color: #e06426;
+    float: left;
+}
+
+.name-indent {
+    display: block;
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
 
 
 @media screen and (max-width: 768px) {
