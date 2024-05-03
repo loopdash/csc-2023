@@ -1915,7 +1915,15 @@ a.botom_read_mores {
     font-size: 24px;
     margin-bottom: 16px;
 }
+.color_depends_span {
+    color: #3c3c3c;
+    font-size: 20px;
+    font-weight: 600;
+}
 
+.color_depends_span:hover {
+    color: inherit;
+}
 .donate-more-btn {
     background: #71b417;
     color: #fff;
